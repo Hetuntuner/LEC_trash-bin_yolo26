@@ -1,0 +1,19 @@
+# 忽略 Python 缓存和虚拟环境
+__pycache__/
+*.pyc
+venv*/
+.env
+
+# 忽略训练和编译产生的巨型日志与存档
+runs/
+export/
+*.har
+
+# 忽略数据集和校准图像
+my_selected_images_128/
+yolo26_dataset/
+
+# 忽略不需要上云的杂项
+last.pt
+.DS_Store
+Thumbs.db
